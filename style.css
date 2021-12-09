@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+
+body { 
+  padding: 20px;
+  font-family: 'Shadows Into Light', cursive, monospace;
+  background-color: #37abab;
+}
+@media only screen and (max-width: 768px) {
+  body {
+      margin: 0;
+      padding: 0;
+  }
+
+header {
+  color: #ab3780;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ab3780;
+}
+
+
+
+/* ADD TEXT ANIMATION*/
+ 
+img {
+  opacity: 0.5;
+}
+.connect {
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-right: 5px;
+        width: 25px;
+    }
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 300px;
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+    border-right-color: #ab3780;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
